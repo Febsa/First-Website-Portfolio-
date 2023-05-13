@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Febsa Personal Portfolio Website</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <link href="../public/tailwind.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- Header Area -->
+
+  <header class="header-area">
+    <div class="navbar-menu relative z-50 hidden  ease-in-out duration-1000 transition-all">
+      <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+      <nav
+        class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-[#111] opacity-100 border-r overflow-y-auto">
+        <div class="flex items-center mb-10">
+          <div class="mr-auto mt-3 ml-5">
+            <a class="text-3xl font-bold leading-none" href="#">
+              <h1>FEBSA</h1>
+            </a>
+          </div>
+          <button class="navbar-close">
+            <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg"
+              fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+        <div>
+          <ul>
+            <li class="mb-1 ">
+              <a class="block p-4 rounded text-sm font-semibold text-white hover:bg-[#131a31] hover:text-[#ffb400] hover:transition-all duration-500"
+                href="#home">Home</a>
+            </li>
+            <li class="mb-1">
+              <a class="block p-4 rounded text-sm font-semibold text-white hover:bg-[#131a31] hover:text-[#ffb400] hover:transition-all duration-500"
+                href="#about">About</a>
+            </li>
+            <li class="mb-1">
+              <a class="block p-4  rounded text-sm font-semibold text-white hover:bg-[#131a31] hover:text-[#ffb400] hover:transition-all duration-500"
+                href="#services">Services</a>
+            </li>
+            <li class="mb-1">
+              <a class="block p-4 ] rounded text-sm font-semibold text-white hover:bg-[#131a31] hover:text-[#ffb400] hover:transition-all duration-500"
+                href="#portfolios">Portfolios</a>
+            </li>
+            <li class="mb-1">
+              <a class="block p-4 rounded text-sm font-semibold text-white hover:bg-[#131a31] hover:text-[#ffb400] hover:transition-all duration-500"
+                href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mt-auto">
+          <p class="my-4 text-xs text-center text-gray-400">
+            <span>© 2023. All Rights Reserved.</span>
+          </p>
+        </div>
+      </nav>
+    </div>
+    <div class="container px-4">
+      <div class="header">
+        <a href="index.html" class="logo">Febsa</a>
+        <div class="menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolios">Portfolios</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="social text-2xl">
+          <a href="https://www.instagram.com/febsaadir/"><i class='bx bxl-instagram'></i></a>
+          <a href="https://github.com/Febsa?tab=repositories"><i class='bx bxl-github'></i></a>
+          <a href="https://www.linkedin.com/in/febsa-adi-riansyah-6bb34219b/"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <div id="menu-button" class="navbar-burger text-4xl cursor-pointer block md:hidden">
+          <i class='bx bx-menu'></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner Area -->
+
+  <div class="h-[70vh] relative">
+    <div class="opacity-40 w-full h-full" style="background-image: url('../public/img/banner2.jpg');" id="home">
+
+    </div>
+    <div class="container px-4 top-0 absolute">
+      <div class="w-full mt-24 lg:mt-48 font-semibold space-y-5 pl-8">
+        <p class="text-5xl">Hello, I'm</p>
+        <p class="text-3xl">Febsa Adi Riansyah</p>
+        <p class="text-2xl">Data Analyst</p>
+        <p class="min-w-[320px] w-[60%] text-lg">
+          As a passionate and motivated Data Analyst, I am constantly seeking out new opportunities to grow and hone
+          my skills.
+          I am very familiar with data processing and looking forward to improve as a data analyst or
+          to take on new challenges on a Data
+          Scientist position.
+        </p>
+        <a href="#portfolios" class="btn mt-4">See Projects</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Area-->
+
+  <section class="about-area" id="about">
+    <div class="container px-4">
+      <div class="section-title">
+        <h4>About Us</h4>
+        <p>Information about my personal profile.</p>
+      </div>
+      <div class="about">
+        <div class="about-img">
+          <img src="../public/img/me.png" alt="">
+        </div>
+        <div class="about-content p-2">
+          <p>Here is my profile and resume. Thanks !</p>
+          <div class="about-info">
+            <ul>
+              <li><i class='bx bx-chevron-right'></i> First Name : Febsa Adi</li>
+              <li><i class='bx bx-chevron-right'></i> Last Name : Riansyah</li>
+              <li><i class='bx bx-chevron-right'></i> Age : 23 years</li>
+              <li><i class='bx bx-chevron-right'></i> Nationality : Indonesia</li>
+            </ul>
+            <ul>
+              <li><i class='bx bx-chevron-right'></i> Freelance : Available</li>
+              <li><i class='bx bx-chevron-right'></i> Full Time : Start From April 2023</li>
+              <li><i class='bx bx-chevron-right'></i> Address : South Tangerang</li>
+              <li><i class='bx bx-chevron-right'></i> Phone : +628558288704</li>
+              <li><i class='bx bx-chevron-right'></i> Email : febsaadir@gmail.com</li>
+            </ul>
+            <ul>
+              <li><i class='bx bx-chevron-right'></i> Upwork : Febsa Adi Riansyah</li>
+              <li><i class='bx bx-chevron-right'></i> Linkedln : Febsa Adi Riansyah</li>
+              <li><i class='bx bx-chevron-right'></i> Instagram : @febsaadir</li>
+              <li><i class='bx bx-chevron-right'></i> Languages : Indonesian, English </li>
+            </ul>
+          </div>
+          <a href="../public/Resume_Febsa Adi Riansyah.pdf" class="btn">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Area -->
+
+  <section class="service-area" id="services">
+    <div class="container">
+      <div class="section-title px-4">
+        <h4>My Services</h4>
+        <p>Data is the foundation for intelligent decision-making in the digital economy. 
+          By harnessing the power of data and analytics, businesses can gain a competitive advantage and drive innovation and growth.</p>
+      </div>
+      <div class="services">
+        <div class="single-service">
+          <i class='bx bx-rocket'></i>
+          <h4>Data Cleaning</h4>
+          <p>Data cleaning is the process of identifying and fixing errors and inconsistencies in a dataset to ensure
+            its reliability and quality. It can involve manual and automated techniques to correct and standardize the
+            data.</p>
+        </div>
+        <div class="single-service">
+          <i class='bx bx-rocket'></i>
+          <h4>Machine Learning</h4>
+          <p>Machine learning is a type of artificial intelligence that allows computers to learn and improve their
+            performance on a specific task. It involves giving the machine data and letting it discover patterns and
+            features to make decisions and predictions.
+          </p>
+        </div>
+        <div class="single-service">
+          <i class='bx bx-rocket'></i>
+          <h4>Fully Responsive</h4>
+          <p>As a data analyst, i would be responsible for collecting and organizing data from various sources, analyzing the data using statistical techniques and software tools, and interpreting and communicating the results of the analysis to you. 
+            I would also be responsible for managing your own schedule and workload, and for marketing your services to potential clients.
+          </p>
+        </div>
+        <div class="single-service">
+          <i class='bx bx-rocket'></i>
+          <h4>Data Visualization</h4>
+          <p>Data visualization is the process of creating visual representations of data in order to better understand, analyze, and communicate datasets. 
+            These visualizations can take many forms, such as bar charts, line graphs, scatter plots, and more.
+          </p>
+        </div>
+        <div class="single-service">
+          <i class='bx bx-rocket'></i>
+          <h4>Business Intelligence</h4>
+          <p>BI is used in a variety of industries and sectors, and can be applied to a wide range of business functions, including marketing, sales, finance, operations, and human resources. 
+            BI can help organizations to identify trends, uncover hidden patterns, and gain a deeper understanding of their customers, markets, and operations.
+            Overall, business intelligence is an important tool for organizations seeking to make data-driven decisions and improve their performance.</p>
+        </div>
+        <div class="single-service">
+          <i class='bx bx-rocket'></i>
+          <h4>Customer Support</h4>
+          <p>The goal of customer support is to help customers resolve any issues they may have and to improve the overall customer experience. 
+            By providing high-quality customer support, companies can help to build trust and loyalty among their customer base and improve customer satisfaction.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolios Area -->
+
+  <section class="portfolio-area" id="portfolios">
+    <div class="container px-4">
+      <div class="section-title">
+        <h4>Latest Projects</h4>
+        <p>Dive into the details of my data analysis experience through these selected projects.</p>
+      </div>
+      <div class="space-y-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 bg-[#131a31] p-5">
+          <div class="single-portfolio">
+            <img src="../public/img/portfolio-work-1.jpg" alt=""> 
+            <img src="../public/img/portfolio-work-2.jpg" alt="">
+            <h4>Step Analysis <span>PowerBI</span></h4>
+          </div>
+          <div class="grid grid-cols-1 place-content-center mt-5 space-y-8">
+            <h1 class="text-2xl text-[#ffb400]">Step Analysis</h1>
+            <h2 class="">This project is based on the results of my steps every day. I analyze the progress of my steps every day. 
+              The tools used are Microsoft Excel and PowerBI. Using Advanced Calculations in DAX. 
+              <p>
+               1. Calculate the Average of steps = AVERAGEX(Activity, [Total Steps])
+              </p>
+              <p>
+                2. Running percentage increase = DIVIDE([Steps (Running)], [Total Steps])
+              </p>
+              <p>
+                3. Steps Per Running = CALCULATE([Total Steps], Detail[Activity_Name] = "Running")
+              </p>
+              <p>
+                4. Steps Per Waliking = CALCULATE([Total Steps], Detail[Activity_Name] = "Walking") 
+              </p>
+              <p>
+                5. Total Steps (Cummulative) = CALCULATE([Total Steps], FILTER(ALLSELECTED('Date'), 'Date'[Date] <= MAX(Activity[Date])))
+              </p>
+              <p>
+                6. Week Over Week % Change Steps = VAR CurrentWeek = 
+                CALCULATE([Total Steps], FILTER(ALL('Date'),'Date'[Week of Year] = SELECTEDVALUE('Date'[Week of Year])))
+                VAR PreviousWeek = CALCULATE([Total Steps],FILTER(ALL('Date'),'Date'[Week of Year] = SELECTEDVALUE('Date'[Week of Year]) - 1))
+                RETURN 
+                DIVIDE(CurrentWeek - PreviousWeek, PreviousWeek)
+              </p>
+            </h2>
+          </div>
+        </div>
+
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 bg-[#131a31] p-5">
+          <div class="single-portfolio">
+            <img src="../public/img/portfolio-work-3.jpg" alt="">
+            <img src="../public/img/portfolio-work-4.png" alt="">
+            <h4>Olympic Games Analysis <span>PowerBI</span></h4>
+          </div>
+          <div class="grid grid-cols-1 place-content-center mt-5 space-y-8">
+            <h1 class="text-2xl text-[#ffb400]">Olympic Games Analysis</h1>
+            <h2 class="">On this project, I analyzed the Olympic Games. 
+              My first step was doing data cleaning in SQL Server Management Studio. 
+              Next I do a data transformation and import SQL into PowerBI.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Area -->
+
+  <section class="contact-area" id="contact">
+    <div class="container px-4 ">
+      <div class="section-title">
+        <h4>Get In Touch</h4>
+        <p>Communication works for those who work at it.</p>
+      </div>
+      <div class="contact w-full">
+        <div class="contact-info ">
+          <p class="text-center">Feel free to get in touch with me. I am always open to discussing
+            new projects, creative ideas or opportunities to be part of your visions.</p>
+          <ul class="contact-list">
+            <li>
+              <i class='bx bx-map'></i>
+              <h4>Address <span>Lengkong Wetan, Serpong, South Tangerang</span></h4>
+            </li>
+            <li>
+              <i class='bx bx-phone'></i>
+              <h4>Phone <span>+628558288704</span></h4>
+            </li>
+            <li>
+              <i class='bx bx-envelope'></i>
+              <h4>Email <span>febsaadir@gmail.com</span></h4>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Area -->
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023. All Rights Reserved. FEBSA</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
